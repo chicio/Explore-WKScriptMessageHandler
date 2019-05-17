@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode10.2
+script:
+ - xcodebuild -project ExploreWKScriptMessageHandler.xcodeproj -scheme ExploreWKScriptMessageHandler clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest'
