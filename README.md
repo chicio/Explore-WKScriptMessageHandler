@@ -1,6 +1,6 @@
 # Explore WKScriptMessageHandler
 
-[![Build Status](https://travis-ci.org/chicio/Autoclosure-and-Escaping.svg?branch=master)](https://travis-ci.org/chicio/Autoclosure-and-Escaping)
+[![Build Status](https://travis-ci.org/chicio/Explore-WKScriptMessageHandler.svg?branch=master)](https://travis-ci.org/chicio/Explore-WKScriptMessageHandler)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/React-Native-Native-Modules-Communication/master/LICENSE.md)
 [![Supported platform](https://img.shields.io/badge/platforms-iOS-orange.svg)](https://img.shields.io/badge/platforms-iOS-orange.svg)
 
