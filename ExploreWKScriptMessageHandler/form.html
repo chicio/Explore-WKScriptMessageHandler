@@ -6,11 +6,11 @@
       <title>ExploreWKWebViewJavascript</title>
       <script type="text/javascript">
           function submitForm() {
-              var successResponse = {
+              var message = {
                 name: document.getElementById("name").value,
                 email: document.getElementById("email").value
               };
-              window.webkit.messageHandlers.observe.postMessage(successResponse);
+              window.webkit.messageHandlers.observer.postMessage(message);
           }
       </script>
   </head>

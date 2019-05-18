@@ -22,18 +22,18 @@ class FormViewController: UIViewController, WKScriptMessageHandler {
         self.view.addSubview(self.wkWebView)
     }
     
-    private func getWKWebViewConfiguration() -> WKWebViewConfiguration {
-        let userController = WKUserContentController()
-        userController.add(self, name: "observe")
-        let configuration = WKWebViewConfiguration()
-        configuration.userContentController = userController
-        return configuration
-    }
-
     private func loadPage() {
         if let url = Bundle.main.url(forResource: "form", withExtension: "html") {
             self.wkWebView.load(URLRequest(url: url))
         }
+    }
+    
+    private func getWKWebViewConfiguration() -> WKWebViewConfiguration {
+        let userController = WKUserContentController()
+        userController.add(self, name: "observer")
+        let configuration = WKWebViewConfiguration()
+        configuration.userContentController = userController
+        return configuration
     }
     
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
