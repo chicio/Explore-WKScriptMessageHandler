@@ -14,4 +14,4 @@ This is a quote from the post:
 
 > Sooner or later every mobile developer in the world had the following specific need: integrate a website page inside an app. Usually the feature to be developed requires a depp integration between web and native: the app must react to some changes in the web page based on the user interactions or some other events (automatic refresh, geolocation ecc.). The old way to do this integration was to catch some url change/page load using the classical UIWebView delegate methods. But starting from iOS 8 there's a better way to do this integration using `WKWebView`s and `WKScriptMessageHandler`. In this post I will show you how is it possible to use them to call Swift code from Javascript code inside a webpage. 
 
-Click on the links above to read the posts.
+Click on the link above to read the posts.
