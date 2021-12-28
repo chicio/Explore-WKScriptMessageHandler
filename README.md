@@ -6,7 +6,7 @@
 
 
 An example project in which I explore how it is possible to use `WKScriptMessageHandler` to make some `WKWebView` web page to native communication.  
-This is a project for my blog posts [Web to native communication on iOS using WKScriptMessageHandler](https://www.fabrizioduroni.it/2019/08/03/html-javascript-to-native-communication-ios.html "Web to native communication on iOS using WKScriptMessageHandler") 
+This is a project for my blog posts [Web to native communication on iOS using WKScriptMessageHandler](https://www.fabrizioduroni.it/2019/08/03/html-javascript-to-native-communication-ios/ "Web to native communication on iOS using WKScriptMessageHandler") 
 
 ### Description
 
